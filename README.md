@@ -2,7 +2,7 @@
 
 Helper util, to just bump a git tag, to solve a very specific use case, that i needed personally.
 
-For use in repos with a dev/main branch, that represent dev/prod environments, and that are publishing nuget packages.
+For use in repos with a dev/main branch, that represent dev/prod environments. (we generate nuget packages based on the tag with minver)
 
 This basically just does:
 
